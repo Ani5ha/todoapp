@@ -40,36 +40,53 @@ e. Add this for PostgreSQL
 }`
 
 **Thats all for settings.py** 
+
 2. Use model.py script available above.
+
 3. Create migration using the command line with the command below:
+
 `manage.py makemigrations`
+
 then migrate the migrations with the code below.
+
 `manage.py migrate`
+
 it will Apply all migrations: admin, auth, contenttypes, sessions, todolist and will check if its `...OK`
+
 4. Create user id for the Django administration
 it will ask you to put **Username, email Id, password and reconfirmation of the password**. A message `Superuser created sucessfully` will get displayed upon successful. 
+
 ![image](https://user-images.githubusercontent.com/42100536/54427369-502b3a00-4740-11e9-924e-5e4f8abbc07a.png)
+
 5. Run Server again `manage.py runserver 8100` 
 
 ![image](https://user-images.githubusercontent.com/42100536/54427559-e0697f00-4740-11e9-8326-fe5aa0647648.png)
 
 6. Use `View`, `urls`, `admin` and `templete` as per above code. 
 7. Just create a` static `folder in the todolist app directory then you can create the` css`folder . place the css code in Notepad++ rename it as `style.css`.
+
 **That’s all for the coding and settings.**
+
 8. Type `manage.py runserver 8100` in the command promt. This shall appear
+
 ![image](https://user-images.githubusercontent.com/42100536/54428317-20c9fc80-4743-11e9-8472-09f8dd9ed4db.png)
+
 ## Create Catagories##
 1. Go to  http://localhost:8100/admin 
+
 2. A credential windows will appear. Enter your Django superuser username and password
+
 ![image](https://user-images.githubusercontent.com/42100536/54428504-b6658c00-4743-11e9-9c3d-22561d350647.png)
 3. After logging in the page will appear:
 click on add categories.
+
 ![image](https://user-images.githubusercontent.com/42100536/54428558-e01eb300-4743-11e9-8c94-937131014b7a.png)
 
 4. List of the categories.
 ![image](https://user-images.githubusercontent.com/42100536/54428681-3c81d280-4744-11e9-9885-c9d936f07dac.png)
 
 ##Adding and Deleting Todos##
+
 The App window will look like this...
 ![image](https://user-images.githubusercontent.com/42100536/54428843-bfa32880-4744-11e9-86e9-98b12598a33e.png)
 
