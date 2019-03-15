@@ -52,6 +52,7 @@ it will ask you to put **Username, email Id, password and reconfirmation of the 
 5. Run Server again `manage.py runserver 8100` 
 
 ![image](https://user-images.githubusercontent.com/42100536/54427559-e0697f00-4740-11e9-8326-fe5aa0647648.png)
+
 6. Use `View`, `urls`, `admin` and `templete` as per above code. 
 7. Just create a` static `folder in the todolist app directory then you can create the` css`folder . place the css code in Notepad++ rename it as `style.css`.
 **That’s all for the coding and settings.**
