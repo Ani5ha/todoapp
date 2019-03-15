@@ -77,6 +77,7 @@ it will ask you to put **Username, email Id, password and reconfirmation of the 
 2. A credential windows will appear. Enter your Django superuser username and password
 
 ![image](https://user-images.githubusercontent.com/42100536/54428504-b6658c00-4743-11e9-9c3d-22561d350647.png)
+
 3. After logging in the page will appear:
 click on add categories.
 
