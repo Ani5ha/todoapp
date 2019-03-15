@@ -1,4 +1,4 @@
-##Setting Up Enviornment##
+## Setting Up Enviornment ##
 1. Create a [virtual environment and install Django](https://docs.djangoproject.com/en/2.1/howto/windows/)
 2. Start a project "todoapp" in the virtual enviornment
 `django-admin.py startproject todoapp
@@ -13,13 +13,13 @@ In the file location see if there is a `todoapp` and` todolist` folder and a scr
 `
 5. A "congratulation" django page will open this ensures that the setup is error free. Repeat steps in case of error.
 
-##Setup Database##
+## Setup Database ##
 1. [Install Postgresql](https://tutorial-extensions.djangogirls.org/en/optional_postgresql_installation/) 
 2. [create database](https://www.guru99.com/postgresql-create-database.html)
 3. Create a `templetes` folder in this our `html` files will be stored. 
 4. See pgAdmin 4 if database is working properly.
 
-##Main##
+## Main ##
 1. So open the `settings.py` file in the `todoapp `directory with any text editor of your choice (I prefer `notepad++`).
 Open settings.py. 
 a. The first thing you need to do is to add the created app “todolist” in the INSTALLED_APPS.
@@ -71,7 +71,7 @@ it will ask you to put **Username, email Id, password and reconfirmation of the 
 
 ![image](https://user-images.githubusercontent.com/42100536/54428317-20c9fc80-4743-11e9-8472-09f8dd9ed4db.png)
 
-## Create Catagories##
+## Create Catagories ##
 1. Go to  http://localhost:8100/admin 
 
 2. A credential windows will appear. Enter your Django superuser username and password
@@ -85,7 +85,7 @@ click on add categories.
 4. List of the categories.
 ![image](https://user-images.githubusercontent.com/42100536/54428681-3c81d280-4744-11e9-9885-c9d936f07dac.png)
 
-##Adding and Deleting Todos##
+## Adding and Deleting Todos##
 
 The App window will look like this...
 ![image](https://user-images.githubusercontent.com/42100536/54428843-bfa32880-4744-11e9-86e9-98b12598a33e.png)
